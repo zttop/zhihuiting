@@ -4,9 +4,9 @@
             <div class="col-md-8">
                 <div class="card card-default">
                     <div class="card-header">Example Component</div>
-
                     <div class="card-body">
                         I'm an example component.
+                        <el-input v-model="input" placeholder="请输入内容"></el-input>
                     </div>
                 </div>
             </div>
@@ -18,6 +18,11 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+        data() {
+            return {
+                input: ''
+            }
         }
     }
 </script>
