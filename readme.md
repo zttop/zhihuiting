@@ -10,3 +10,6 @@
 5、npm install (建议用cnpm install)
 
 6、vue编译:
+	npm run dev
+	npm run watch
+	...
